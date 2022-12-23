@@ -1,8 +1,8 @@
 <script defer src='https://pyscript.net/alpha/pyscript.min.js'></script>
 <link rel='stylesheet' href='https://pyscript.net/alpha/pyscript.css'>
-<py-env>
-  -aiohttp
-</py-env>
+<py-config>
+  packages=['aiohttp']
+</py-config>
 <py-script>
   from aiohttp import web
 app = web.Application()
